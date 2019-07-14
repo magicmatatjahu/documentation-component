@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  DC,
-  Content,
-  RenderedContent,
-  Sources,
-  Source,
-} from "@kyma-project/documentation-component";
+import { DC, Content, Sources } from "@kyma-project/documentation-component";
 import {
   markdownRenderEngine,
   plugins as markdownPlugins,
@@ -14,13 +8,10 @@ import { asyncApiRenderEngine } from "@kyma-project/dc-async-api-render-engine";
 import { openApiRenderEngine } from "@kyma-project/dc-open-api-render-engine";
 import {
   replaceImagePathsMutationPlugin,
-  disableInternalLinksMutationPlugin,
   disableInternalLinksParserPlugin,
 } from "./plugins";
 import { headingPrefix, customNodes } from "./helpers";
 import { MarkdownSingleRenderer, GroupRenderer } from "./renderers";
-import { HeadersNavigation } from "./components";
-import { ContentWrapper } from "./styled";
 
 export interface DocsComponentProps {
   sources: Sources;

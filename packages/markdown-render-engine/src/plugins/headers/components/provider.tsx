@@ -1,8 +1,7 @@
-import React, { useEffect, useState, useContext } from "react";
+import { useEffect, useState, useContext } from "react";
 import createUseContext from "constate";
 import {
   Source,
-  Sources,
   PureSources,
   useDCContext,
 } from "@kyma-project/documentation-component";

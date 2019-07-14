@@ -6,10 +6,6 @@ import {
 } from "@kyma-project/documentation-component";
 import { customScrollBar, headingPrefix } from "../helpers";
 
-interface StyledMarkdownProps {
-  isGroup: boolean;
-}
-
 const StyledMarkdown = styled.div`
   &&& {
     max-width: 899px;
@@ -355,8 +351,6 @@ function toKebabCase(str: string): string {
   }
   return str;
 }
-
-const types: Set<string> = new Set<string>();
 
 const Renderer: React.FunctionComponent<SingleRendererComponent> = ({
   source,

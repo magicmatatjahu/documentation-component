@@ -70,4 +70,5 @@ temp-*/
 .DS_Store
 
 # lib
-lib/
+**/lib
+**/bundle_analyzer

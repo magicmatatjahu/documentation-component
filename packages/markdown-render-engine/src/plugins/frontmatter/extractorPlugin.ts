@@ -3,7 +3,6 @@ import mapValues from "lodash.mapvalues";
 import isDate from "lodash.isdate";
 
 import {
-  Source,
   ExtractorPluginArgs,
   ExtractorPluginReturnType,
 } from "@kyma-project/documentation-component";

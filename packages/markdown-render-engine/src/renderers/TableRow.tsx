@@ -1,5 +1,5 @@
 import React from "react";
-import { createElementClass, createModifierClass } from "../helpers";
+import { createElementClass } from "../helpers";
 
 export interface TableRowProps {
   isHeader: boolean;

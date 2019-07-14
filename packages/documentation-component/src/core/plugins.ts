@@ -1,5 +1,4 @@
 import {
-  Source,
   Sources,
   Plugin,
   PluginType,
@@ -9,15 +8,11 @@ import {
   ExtractorPluginReturnType,
   MutationPlugin,
   MutationPluginReturnType,
-  PluginWithOptions,
   Plugins,
-  isSourceWithOptions,
   isSourceGroupWithOptions,
-  isPlugin,
   isPluginWithOptions,
   SourceWithOptions,
   SourceGroupWithOptions,
-  PluginOptionsForSource,
 } from "../interfaces";
 import deepmerge from "deepmerge";
 

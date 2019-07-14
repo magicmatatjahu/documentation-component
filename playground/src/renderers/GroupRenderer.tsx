@@ -1,11 +1,9 @@
 import React from "react";
-import styled from "styled-components";
 import {
   RenderedContent,
   GroupRendererComponent,
 } from "@kyma-project/documentation-component";
 import { StickyContainer, Sticky } from "react-sticky";
-import { customScrollBar, headingPrefix } from "../helpers";
 import { Tabs, Tab, HeadersNavigation } from "../components";
 
 export const GroupRenderer: React.FunctionComponent<GroupRendererComponent> = ({

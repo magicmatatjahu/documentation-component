@@ -1,5 +1,5 @@
 import React from "react";
-import { Source, SourceWithOptions } from "../../interfaces";
+import { Source } from "../../interfaces";
 
 export interface SingleRendererComponent {
   source: Source;

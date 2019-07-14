@@ -32,7 +32,7 @@ export const disabledInternalLinkParser = (
     ) {
       return null;
     }
-    const content = "Placeholder";
+    // const content = "Placeholder";
 
     return <GreyedText>{node.children[0].data}</GreyedText>;
 

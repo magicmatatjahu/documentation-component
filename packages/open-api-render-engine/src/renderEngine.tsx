@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import {
-  Source,
   RenderEngineProps,
 } from "@kyma-project/documentation-component";
 import { OpenApiProps } from "./types";

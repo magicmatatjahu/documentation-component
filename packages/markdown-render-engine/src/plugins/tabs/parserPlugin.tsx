@@ -53,6 +53,7 @@ export const tabsParser = (
               </Tab>
             );
           }
+          return null;
         });
       }
     });

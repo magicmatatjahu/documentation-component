@@ -1,5 +1,4 @@
 import {
-  Source,
   MutationPluginArgs,
 } from "@kyma-project/documentation-component";
 

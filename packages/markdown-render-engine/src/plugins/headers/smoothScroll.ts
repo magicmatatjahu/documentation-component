@@ -11,6 +11,8 @@ export function smoothScroll({
 
   for (const item of anchorLinks as any) {
     item.addEventListener("click", (e: Event) => {
+      e.preventDefault();
+
       const hashValue = item.getAttribute("href");
       let target = document.querySelector(hashValue);
 
@@ -36,7 +38,6 @@ export function smoothScroll({
       pushStateBehavior
         ? pushStateBehavior(hashValue)
         : history.pushState(null, "", hashValue);
-      e.preventDefault();
     });
   }
 }

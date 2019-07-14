@@ -7,7 +7,6 @@ import {
   RenderEngineWithOptions,
   RenderEngineProps,
   RenderEngineOptions,
-  RenderEngine,
   RenderEngines,
   isSourceWithOptions,
   isRenderEngineWithOptions,

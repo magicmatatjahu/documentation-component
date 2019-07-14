@@ -7,7 +7,6 @@ import htmlParser from "react-markdown/plugins/html-parser";
 import * as Components from "./renderers";
 import {
   Renderers,
-  MarkdownParserPlugin,
   MarkdownRenderEngineOptions,
 } from "./types";
 

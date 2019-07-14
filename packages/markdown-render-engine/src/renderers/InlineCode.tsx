@@ -1,6 +1,5 @@
 import React from "react";
-import ReactPlayer from "react-player";
-import { createElementClass, createModifierClass } from "../helpers";
+import { createElementClass } from "../helpers";
 
 export interface InlineCodeProps {
   inline: boolean;

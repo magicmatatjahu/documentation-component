@@ -73,6 +73,7 @@ export function scrollSpy({
           headings[i].classList.remove("active");
         }
       }
+      return;
     }, 0);
   }
 

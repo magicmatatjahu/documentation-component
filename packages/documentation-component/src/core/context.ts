@@ -1,8 +1,6 @@
-import React from "react";
 import createUseContext from "constate";
 import { runSystem, extractSources } from "./system";
-import { runRender } from "./render";
-import { Context, Options, Source, Sources } from "../interfaces";
+import { Context, Options } from "../interfaces";
 
 const Container = (options: Options): Context => {
   const sources = runSystem(options);
