@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import {
-  RenderedContent,
   SingleRenderer,
   SingleRendererComponent,
 } from "@kyma-project/documentation-component";
@@ -361,7 +360,6 @@ const types: Set<string> = new Set<string>();
 
 const Renderer: React.FunctionComponent<SingleRendererComponent> = ({
   source,
-  k = "",
 }) => {
   const renderedContent = source.data && source.data.renderedContent;
   const title =
@@ -374,7 +372,7 @@ const Renderer: React.FunctionComponent<SingleRendererComponent> = ({
   const kebabCasedType = toKebabCase(type);
 
   return (
-    <StyledMarkdown key={k} id={kebabCasedType}>
+    <StyledMarkdown id={kebabCasedType}>
       {title && <Header id={id}>{title}</Header>}
       {renderedContent}
     </StyledMarkdown>

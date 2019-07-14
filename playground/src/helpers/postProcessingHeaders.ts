@@ -1,4 +1,7 @@
-import { Source, Header } from "@kyma-project/documentation-component";
+import { Source } from "@kyma-project/documentation-component";
+import { plugins } from "@kyma-project/dc-markdown-render-engine";
+
+type Header = plugins.Header;
 
 const toKebabCase = (str: string) => {
   const matched = str.match(
